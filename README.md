@@ -73,7 +73,13 @@ process
 console
     .{Object} 用语控制台打印输出或者错误, 详情请见控制台输入输出章节
 
+Class:Buffer
+    .{function}
+    用来处理二进制数据, 详情请见buffer章节
 
+require
+    .{function}
+    用来请求访问模块的, 详情请见Module章节, require 实际上不是一个全局对象的方法, 而是本地每个模块的都有的方法
 
 
        
