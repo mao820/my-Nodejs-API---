@@ -37,6 +37,10 @@ Stability index(稳定性指数)
    
    Stability 5: Locked(锁定)
        除非严重的Bug被发现, 这篇区域的代码将永远不会改变。请不要试图在这个区域进行建议, 这将会被拒绝。
+
+JSON Output
+  Stability 1: Experimental(实验性的)
+      每个markdown 下面的 HTML文件都会拥有一个有着相同信息的JSON文件
        
 
        
