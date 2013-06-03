@@ -58,4 +58,7 @@ Synopsis(简介)
      Server running at http://127.0.0.1:8124/
    所有这个文档的例子都能类似的执行。
 
+Global Objects(公共对象)
+   这些object 在所有模块中都是可见的, 一些Objects实际上不是在全局代码里, 单是在模块代码里, 这些将会被注意。
+   
        
