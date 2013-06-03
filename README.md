@@ -19,9 +19,11 @@ Stability index(稳定性指数)
    险性的。
    所有稳定性指数列表如下：
    stability 0: Deprecate(弃用)
-       这个特征是最近才介绍的, 标记了这个指数的对象表式将在未来的版本中改变或者移除。请尝试用一下这个指数并提供反馈。
-       如果它标记了一个对你来说很有用的案例, 请告诉Node core team
-       (if it addressess a use-case that is importent to you, please tell Node core team)
+       被这个指数标记的对象：表示了此对象是有问题的, 而且已经计划改变。请不要信任此对象, 用了有此标记的对象将会导致警告,
+       基本上不会在向后兼容。
    
    stabiliy 1: experimental(实验性的)
+       这个特征是最近才介绍的, 标记了这个指数的对象表式将在未来的版本中改变或者移除。请尝试用一下这个指数并提供反馈。
+       如果它解决了一个对你来说很有用的案例, 请告诉Node core team。
+
        
