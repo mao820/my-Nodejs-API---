@@ -39,8 +39,23 @@ Stability index(稳定性指数)
        除非严重的Bug被发现, 这篇区域的代码将永远不会改变。请不要试图在这个区域进行建议, 这将会被拒绝。
 
 JSON Output
-  Stability 1: Experimental(实验性的)
-      每个markdown 下面的 HTML文件都会拥有一个有着相同信息的JSON文件
-       
+   Stability 1: Experimental(实验性的)
+       每个markdown 下面的 HTML文件都会拥有一个有着相同信息的JSON文件, 
+       这个特征是在node v0.6.12版本中刚加入 it's experimental
+      
+Synopsis(简介)
+   利用Node 部署的一个简单胡响应"helloworld"的web服务器的例子：
+       var http = require("http");
+       http.createServer(
+         function(request, response) {
+           responseWriteHead(200, {'Content-Type': 'text/plain'});
+           response.end("hello world\n");
+         }
+       ).listen(8124);
+       console.log('Server running at http://127.0.0.1:8124/');
+   运行这个服务, 把代码放入一个名为example.js 的文件中, 用Node program 去执行它
+     > node example.js
+     Server running at http://127.0.0.1:8124/
+   所有这个文档的例子都能类似的执行。
 
        
