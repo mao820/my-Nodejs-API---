@@ -62,10 +62,18 @@ Global Objects(公共对象)
    这些object 在所有模块中都是可见的, 一些Objects实际上不是在全局代码里, 单是在模块代码里, 这些将会被注意。
 
 global
-    .{Object}the global namespace object(全局的命名空间object)
+    .{Object} the global namespace object(全局的命名空间object)
     在浏览器：最高级别的范围就是global scope, 那就意味着在浏览器端 如果你在全局范围内定义一个变量它将是一个全局变量
     单是在Node范围内这将是不同的, 在Node中最高级别的范围不是global; 定义一个变量在某一个Nodule Module, 那这个变量将
     属于这个Node Module。
+
+process
+    .{Object} 关于process object, 详情请见process object 章节
+    
+console
+    .{Object} 用语控制台打印输出或者错误, 详情请见控制台输入输出章节
+
+
 
 
        
